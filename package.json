@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "lint:fix": "eslint --fix src --ext ts,tsx",
-    "test": "jest"
+    "test": "jest",
+    "dev": "--poll"
   },
   "devDependencies": {
     "@types/jest": "^26.0.21",
